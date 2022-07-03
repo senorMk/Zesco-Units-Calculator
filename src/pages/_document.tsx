@@ -20,7 +20,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             property="og:title"
-            content="nextjs-tailwind-ts-template - nextjs starter"
+            content="Zesco Units Calculator - No Download"
           />
           <link rel="icon" href="/favicon.svg?v=2" />
           <link
@@ -35,12 +35,10 @@ class MyDocument extends Document {
             sizes="16x16"
             href="/favicon-16x16.png?v=2"
           />
-          <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9ca3af" />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#000000" />
         </Head>
-        <body className="bg-gray-800 text-gray-200 min-h-screen antialiased">
+        <body>
           <Main />
           <NextScript />
         </body>
